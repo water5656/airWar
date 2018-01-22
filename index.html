@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <title>Document</title>
+   <style type="text/css">
+      canvas{
+         border: 1px solid #000;
+      }
+   </style>
+</head>
+<body>
+   <audio src="audio/bossDie.mp3" id="bossDie"></audio>
+   <audio src="audio/enemyDie.mp3" id="enemyDie"></audio>
+   <audio src="audio/game.mp3" id="game" loop autoplay></audio>
+   <audio src="audio/over.mp3" id="over"></audio>
+   <canvas id="canvas" width="400" height="600"></canvas>
+   <script type="text/javascript" src="js/underscore-min.js"></script>
+   <script type="text/javascript" src="js/Game.js"></script>
+   <script type="text/javascript" src="js/Sky.js"></script>
+   <script type="text/javascript" src="js/Tank.js"></script>
+   <script type="text/javascript" src="js/Bullet.js"></script>
+   <script type="text/javascript" src="js/Enemy.js"></script>
+   <script type="text/javascript" src="js/EBullet.js"></script>
+   <script type="text/javascript" src="js/Niubi.js"></script>
+   <script type="text/javascript" src="js/Boss.js"></script>
+   <script type="text/javascript" src="js/Scene.js"></script>
+   <script type="text/javascript">
+        var game = new Game();
+   </script>
+</body>
+</html>
